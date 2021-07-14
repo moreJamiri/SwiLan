@@ -33,9 +33,9 @@ def ToEnglish(text):
     return output
 
 
-# A function for recognition text language
-# (If most characters are in the same language, that language is recognized.)
-def CheckLang(text):
+# A function for detect text language
+# (If most characters are in the same language, that language will detected.)
+def DetectLang(text):
     e = 0
     f = 0
     for l in text:
@@ -49,7 +49,7 @@ def CheckLang(text):
 
 # Main function
 def SwiLan(text):
-    lang = CheckLang(text)
+    lang = DetectLang(text)
     if lang == 'en':
         return ToPersian(text)
     else:
