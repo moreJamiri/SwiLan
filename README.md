@@ -9,6 +9,9 @@ Oh no, I forgot to **change my keyboard language**.This is the typed text in per
 آثممخ صخقمی!
 ```
 At this time you can call SwiLan as an **easy way :)**
+
+> **_NOTE:_** This program is also implemented as a [telegram bot](https://t.me/swilanbot).
+
 # Basic Usage
 To use Swilan you sould first import it:
 ```Python
